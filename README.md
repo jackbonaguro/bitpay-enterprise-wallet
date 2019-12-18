@@ -1,10 +1,10 @@
 # bitpay-enterprise-wallet
 
-## Install
+### Install
 
 `npm i`
 
-## Steps to create an XRP wallet
+### Steps to create an XRP wallet
 
 From the root directory:
 
@@ -16,3 +16,6 @@ From the root directory:
 3. Derive one address for the wallet - this will be the XRP acceptance address: `./wallet-derive —-name <name> —-gap 1`
 	* This will output the address - copy that and send it to John.
 	* To see the last derived address, run: `./wallet-check —-name <name>`
+
+### Other Commands
+See [bitcore-client documentation](https://github.com/bitpay/bitcore/tree/master/packages/bitcore-client#commands)
